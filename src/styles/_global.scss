@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+  background: #000000;
+  font-family: 'Teko', sans-serif;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('./assets/images/cosmo-man.png');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  font-size: 18px;
+  white-space: pre-line;
+}
+h1, h2, h3 {
+  line-height: 100%;
+}

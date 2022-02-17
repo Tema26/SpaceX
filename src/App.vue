@@ -1,8 +1,12 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <header class="header">
+    <img class="header__logo" src="./assets/images/spacex-logo.png">
+    <h1 class="header__title">Space <span class="header__title_white">X</span> <span class="header__title_newline">Missions</span></h1>
+  </header>
+  <section class="flight-list">
+    <card-starting :cards="cards"/>
+  </section>
 </template>
-
 
 <script>
 import CardStarting from './components/CardStarting.vue'

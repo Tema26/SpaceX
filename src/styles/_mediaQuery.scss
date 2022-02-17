@@ -1,0 +1,55 @@
+@media (min-width: 480px) and (max-width: 767px) {
+    .header {
+        margin-top: 60px;
+    }
+    .flight-list__item {
+        display: block;
+        padding: 40px;
+        &-img {
+            margin-bottom: 10px;
+        }
+    }
+}
+@media (max-width: 479px) {
+    .header {
+        margin-top: 40px;
+        height: 53vh;
+        &__title {
+            font-size: 120px;
+        }
+    }
+    .flight-list__item {
+        padding: 25px;
+        display: block;
+        &-img {
+            display: none;
+        }
+        &-info {
+            &-data {
+                display: block;
+                margin-top: 0;
+                &-wrapper {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 300px) {
+    .header {
+        margin-top: 10px;
+        height: 45vh;
+        &__title {
+            font-size: 100px;
+        }
+    }
+    .flight-list {
+        &__item {
+            &-info {
+                &-title {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../_variables';
+
+.header {
+    height: 70vh;
+    margin-top: 80px;
+    &__logo {
+      max-width: 100%;
+    }
+    &__title {
+      color: $colorBlue;
+      font-size: 180px;
+      font-weight: 300;
+      margin-top: 20px;
+      &_white {
+        color: white;
+      }
+      &_newline {
+        display: block;
+      }
+    }
+  }
